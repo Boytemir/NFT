@@ -1,0 +1,435 @@
+
+
+/* ========== 1410 px ============= */
+
+@media screen and (max-width: 1410px) {
+    .container{
+        width: 100%;
+        padding: 50px;
+    }
+
+    .nav-bar{
+        width: 100%;
+    }
+    .content{
+        width: 100%;
+    }
+
+    .auctions{
+        width: 100%;
+    }
+
+    .works{
+        width: 100%;
+    }
+
+    .popular{
+        width: 100%;
+    }
+
+    .explore{
+        width: 100%;
+    }
+
+    .footer{
+        width: 100%;
+    }
+}
+
+
+
+
+/* ============= 1363 px ============== */
+@media screen and (max-width: 1363px){
+    .works-item{
+        gap: 50px;
+    }
+
+    .works h3{
+        margin-left: 330px;
+    }
+
+    .works-item__card:nth-child(1) .text-decartion{
+        width: 100px;
+        right: -100px;
+    }
+
+    .works-item__card:nth-child(2) .text-decartion{
+        position: absolute;
+        right: -60px;
+        top: 52px;
+        width: 100px;
+    }
+
+    .works-item__card:nth-child(3) .text-decartion{
+        position: absolute;
+        right: -95px;
+        top: 52px;
+        width: 100px;
+    }
+}
+
+
+
+/* ================ 1240px =============== */
+
+@media screen and (max-width: 1240px){
+    .content-brends{
+        gap: 0;
+        justify-content: space-between;
+        margin-left: auto;
+    }
+
+    .popular{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .popular h1{
+        margin-left: 0;
+        
+    }
+
+    .explore{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .explore h1{
+        margin-left: 0;
+    }
+
+    .explore img{
+        width: 100%;
+    }
+
+    .footer-item{
+        width: 100%;
+    }
+}
+
+
+
+/* ================ 1024px =============== */
+
+@media screen and (max-width: 1024px){
+    .content-counters{
+        margin-top: 200px;
+    }
+    .content-counter h1{
+        font-size: 44px;
+    }
+    .content-brends a{
+        width: 20%;
+    }
+   .content-brends a img{
+    width: 100%;
+   }
+
+   .auctions h1{
+     font-size: 44px;
+     line-height: 90px;
+   }
+
+   .auctions{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+   }
+   .auctions h1::after{
+    width: 80px;
+    height: 80px;
+   }
+   .works h3{
+    font-size: 44px;
+    margin-left: 0px; 
+    text-align: center;
+   }
+   .works-item{
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+   }
+   .works-item__card:nth-child(2) .text-decartion{
+      display: none;
+    }
+    .popular{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .popular h1{
+        font-size: 44px;
+        line-height: 80px;
+    }
+    .popular h1::before{
+        width: 80px;
+        height: 80px;
+    }
+
+    .explore{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .explore h1{
+        font-size: 44px;
+        line-height: 70px;
+    }
+    .explore h1::before{
+        width: 80px;
+        height: 80px;
+        top: 0;
+    }
+
+    .footer-item{
+        flex-wrap: wrap;
+        gap: 50px;
+        justify-content: flex-start;
+    }
+    .footer-networks{
+        width: 300px;
+    }
+}
+
+
+
+
+/* ================ 830px =============== */
+
+@media screen and (max-width: 830px){
+    .container{
+        padding: 10px 20px 50px 20px;
+    }
+    
+    .nav-menu-x{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: rgba(225, 225, 225, 0.5);
+        top: 0;
+        right: -100%;
+        display: flex;
+        justify-content: flex-end;
+        z-index: 9;
+    }
+
+    .nav-bar__menu{
+        width: 50%;
+        height: 100%;
+        flex-direction: column;
+        background: #16091B;
+        padding: 30px 20px;
+        align-items: flex-start;
+        opacity: 0;
+        transition: all 1s ease;
+    }
+
+    .nav-bar i{
+        display: block;
+    }
+
+    .logo img{
+        width: 50px;
+    }
+
+    .header-container{
+        width: 100%;
+        gap: 100px;
+    }
+
+    .header-container img{
+        width: 100px;
+    }
+
+    .header-container__menu{
+        align-items: flex-start;
+    }
+
+    .content img{
+        margin-left: 0;
+    }
+
+    .content-counters{
+        justify-content: center;
+        margin-top: 120px;
+        gap: 50px;
+    }
+
+    .content-counter h1{
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    .content-counter p{
+        font-size: 16px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .auctions h1{
+        font-size: 30px;
+    }
+
+    .auctions h1::after{
+        width: 50px;
+        height: 50px;
+        top: 20px;
+        left: -10px;
+    }
+
+    .works{
+        width: 100%;
+    }
+
+    .works h3{
+        font-size: 30px;
+        margin-top: 150px;
+    }
+
+    .works-item__link{
+        width: 80px;
+        height: 80px;
+    }
+
+    .works-item__link img{
+        width: 40px;
+    }
+
+    .works-item__link p{
+        font-size: 16px;
+    }
+
+    .popular h1{
+        font-size: 30px;
+        margin-top: 150px;
+    }
+
+    .popular h1::before{
+        width: 50px;
+        height: 50px;
+        top: 10px;
+        left: -10px;
+    }
+
+    .explore h1{
+        font-size: 30px;
+        margin-top: 150px;
+    }
+
+    .explore h1::before{
+        width: 50px;
+        height: 50px;
+        top: 10px;
+        left: -10px;
+    }
+
+    .footer-logo  img{
+        width: 50px;
+    }
+}
+
+
+
+
+/* ================ 617px =============== */
+
+@media screen and (max-width: 617px){
+    .works-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .works-item .text-decartion{
+        display: none;
+    }
+}
+
+
+/* ================ 460pxpx =============== */
+
+@media screen and (max-width: 460px){
+    .nav-bar__menu{
+        width: 80%;
+    }
+
+    .nav-bar__btn{
+        font-size: 16px;
+    }
+    .container{
+        padding: 20px 20px 40px 20px;
+    }
+
+    .header-container{
+        gap: 30px;
+    }
+
+    .content-counters {
+        flex-wrap: wrap;
+    }
+
+    .content-brends{
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .content-brends a{
+        width: 40%;
+    }
+
+    .auctions h1{
+        font-size: 25px;
+        margin-left: 0;
+        line-height: 30px;
+    }
+
+    .auctions h1::after{
+        top: -10px;
+    }
+
+    .works h3{
+        font-size: 25px;
+    }
+
+    .works-nur{
+        width: 50px;
+        height: 50px;
+        filter: blur(60px);
+        top: -100px;
+        left: 0;
+    }
+
+    .works-item__card p{
+        font-size: 16px;
+        margin-top: 15px;
+    }
+
+    .popular h1{
+        font-size: 25px;
+        list-style: 30px;
+    }
+
+    .popular-nur{
+        width: 50px;
+        height: 50px;
+        filter: blur(60px);
+        left: 50px;
+        top: 50px;
+    }
+
+    .explore h1{
+        font-size: 23px;
+        line-height: 30px;
+    }
+
+    .explore h1::before{
+        top: -10px;
+    }
+
+    .footer-item{
+        padding: 20px;
+    }
+}
